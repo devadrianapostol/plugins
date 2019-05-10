@@ -92,7 +92,7 @@ class _PushMessagingExampleState extends State<PushMessagingExample> {
 
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
   final TextEditingController _topicController =
-      TextEditingController(text: 'topic');
+      TextEditingController(text: 'solicitare');
 
   Widget _buildDialog(BuildContext context, Item item) {
     return AlertDialog(
